@@ -1,0 +1,7 @@
+{
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.tabSize": 2,
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always"
+}
