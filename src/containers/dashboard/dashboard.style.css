@@ -63,7 +63,47 @@
   justify-content: center;
   align-content: center;
   background: #0795FF;
-  margin-top: 300px;
+  margin-top: 200px;
   border-top: 1px solid #FFFFFF;
   cursor: pointer;
+}
+.ant-layout-header {
+  height: 100px ;
+  padding: 0 50px;
+}
+.custom-header {
+  height: 100px !important;
+  padding: auto 30px;
+  justify-content: flex-end;
+}
+.header-items {
+  padding: 35px 30px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: right;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+.header-icons {
+  padding: 35px 32px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 23px;
+  text-align: right;
+  letter-spacing: 0.01em;
+  color: #c1c1ce;
+}
+.notification-count {
+  position: absolute;
+    top: 36px;
+    right: 8rem;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #F59FBC;
 }

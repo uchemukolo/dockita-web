@@ -51,6 +51,46 @@ const ScheduledAppointmemtList = (props) => {
       issue: 'Malaria',
       avatar: "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
     },
+    {
+      key: '2',
+      name: 'Mike',
+      age: 32,
+      address: 'OBSERVATION',
+      date: 'Tomorrow',
+      time: '10:30 AM',
+      issue: 'Malaria',
+      avatar: "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+    },
+    {
+      key: '3',
+      name: 'John',
+      age: 42,
+      address: 'GENERAL VISIT',
+      date: 'Tomorrow',
+      time: '10:30 AM',
+      issue: 'Malaria',
+      avatar: "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+    },
+    {
+      key: '4',
+      name: 'Mike',
+      age: 32,
+      address: 'OBSERVATION',
+      date: 'Tomorrow',
+      time: '10:30 AM',
+      issue: 'Malaria',
+      avatar: "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+    },
+    {
+      key: '5',
+      name: 'John',
+      age: 42,
+      address: 'GENERAL VISIT',
+      date: 'Tomorrow',
+      time: '10:30 AM',
+      issue: 'Malaria',
+      avatar: "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+    },
   ];
   
   dataSource.map((item => item))
@@ -70,7 +110,7 @@ const ScheduledAppointmemtList = (props) => {
            (
             <div className='custom-rows'>
               <p style={{}}>{item.name}</p>
-              <p style={{marginTop: '-14px', fontSize: '10px', color: '#8E9198'}}>{item.issue}</p>
+              <p style={{marginTop: '-6px', fontSize: '10px', color: '#8E9198'}}>{item.issue}</p>
             </div>
             )
     },

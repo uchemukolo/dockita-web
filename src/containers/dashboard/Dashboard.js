@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Layout, Menu, Row, Col } from 'antd';
-import { FolderOutlined, FileOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
+import {Link} from 'react-router-dom';
+import { FolderOutlined, FileOutlined, MailOutlined, SettingOutlined, LogoutOutlined, BellOutlined, DownOutlined } from '@ant-design/icons';
 import Card from '../../components/card'
 import ScheduledAppointmemtList from '../../components/scheduledAppointmemtList'
 import './dashboard.style.css';
@@ -30,8 +30,10 @@ const Dashboard = (props) => {
       }}
     >
       <Menu mode="inline">
-      <Row style={{background: '#ffffff'}}>
-      <img src={require('../../assets/logo.png')} alt="logo"/> 
+      <Row style={{paddingLeft: '8px', paddingTop: '30px', background: '#ffffff'}}>
+        <Link to=''>
+      <img src={require('../../assets/dockita-logo-2.png')} alt="logo"/> 
+        </Link>
       </Row>
         <Menu.Item key="1">
         <FolderOutlined style={{fontSize: '50px', color: '#ffffff'}}/>
@@ -49,7 +51,16 @@ const Dashboard = (props) => {
       </Row>
     </Sider>
     <Layout>
-      <Header className="site-layout-sub-header-background" style={{ padding: 0 }} />
+      <Header className="site-layout-sub-header-background" style={{ padding: 0 }}>
+        <Row className='custom-header'>
+          <div className='header-items'>Welcome Dr Samuel</div>
+          <div className='header-icons'><DownOutlined /></div>
+          <div className='header-icons'><BellOutlined />
+            <span className='notification-count'></span>
+          </div>
+          <div className='header-icons'><LogoutOutlined /></div>
+        </Row>
+      </Header>
 
       <Row gutter={8} style={{ margin: '24px 16px 0' }}>
       <Col span={6}>
@@ -68,25 +79,25 @@ const Dashboard = (props) => {
       </Row>
       <Row gutter={8} style={{ margin: '24px 16px 0' }}>
       <Col span={10}>
-      <Content style={{ minHeight: 'auto', borderRadius: '10px'}}>
+      <Content style={{ minHeight: 'auto', borderRadius: '50px'}}>
         <ScheduledAppointmemtList />
       </Content>
       </Col>
       <Col span={8}>
-      <Row>
-      <Content style={{ minHeight: '100px', borderRadius: '10px'}}>
+      {/* <Row> */}
+      <Content style={{ minHeight: '100px', borderRadius: '50px'}}>
         <ScheduledAppointmemtList />
       </Content>
-      </Row>
-      <Row style={{paddingTop: '24px'}}>
-      <Content style={{ minHeight: '300px', borderRadius: '10px'}}>
+      {/* </Row> */}
+      {/* <Row style={{paddingTop: '24px'}}>
+      <Content style={{ minHeight: '300px', borderRadius: '50px'}}>
         <ScheduledAppointmemtList />
       </Content>
-      </Row>
+      </Row> */}
       
       </Col>
       <Col span={6}>
-      <Content style={{ minHeight: 'auto', borderRadius: '10px'}}>
+      <Content style={{ minHeight: 'auto', borderRadius: '50px'}}>
         <ScheduledAppointmemtList />
       </Content>
       </Col>
@@ -94,7 +105,6 @@ const Dashboard = (props) => {
       <Footer style={{ textAlign: 'center' }}>Dockita ©2020</Footer>
     </Layout>
   </Layout>
-      <ScheduledAppointmemtList />
     </div>
    )
 
