@@ -1,0 +1,48 @@
+.ant-table {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  color: #0795FF;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 16px;
+  list-style: none;
+  -webkit-font-feature-settings: 'tnum', "tnum";
+  font-feature-settings: 'tnum', "tnum";
+  position: relative;
+  z-index: 0;
+  clear: both;
+  background: #fff;
+  border-radius: 2px;
+  overflow: scroll;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: none;
+}
+.custom-rows {
+  display: 'flex';
+  flex-direction: 'column';
+  color: '#0795FF';
+}
+.ant-table-title {
+  padding: 16px 16px;
+  border-bottom: 1px solid #EEF0F7;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+}
+.ant-table-footer {
+  text-align: center;
+  padding: 16px 16px;
+  color:  #0795FF;
+  background: none !important;
+  border-top: 1px solid #EEF0F7;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+}

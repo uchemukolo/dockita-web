@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col, Form, Input, Button, Divider} from 'antd';
 import './home.style.css';
+import { history } from "../../redux/store";
 
 /**
 * @author
@@ -9,6 +10,7 @@ import './home.style.css';
 
 const Home = (props) => {
     const onFinish = values => {
+      history.push(`/dashboard`);
       console.log('Received values of form: ', values);
     };
   return(

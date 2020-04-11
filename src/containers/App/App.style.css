@@ -1,11 +1,11 @@
 body {
   background: #EDEDF6;
-  background-image: url("./assets/back\ 01\ 1.png");
+  background-image: url("../../assets/back\ 01\ 1.png");
 }
 
 .App {
   width: 100%;
-  /* padding: 50px 60px 0px 60px; */
+  padding: 50px 60px 0px 60px;
 }
 @media screen and ( max-width: 600px ) {
   .App {

@@ -1,0 +1,43 @@
+.card-container {
+  width: 100%;
+  min-height: 140px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.avatar {
+  margin: 0;
+  padding: 14px;
+  font-size: 25px;
+  color: #F59FBC;
+  text-align: center;
+  background: #713bdb0d;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.description {
+  padding-left: 20px;
+  padding-top: 10px ;
+}
+.name-date {
+  color: #A6ACBE;
+  font-family: 'Raleway', sans-serif;;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  padding-top: 10px;
+}
+.total {
+  font-family: 'Raleway', sans-serif;;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 24px;
+  color: #F59FBC;
+}
