@@ -58,7 +58,9 @@ const Dashboard = (props) => {
           <div className='header-icons'><BellOutlined />
             <span className='notification-count'></span>
           </div>
+          <Link to=''>
           <div className='header-icons'><LogoutOutlined /></div>
+          </Link>
         </Row>
       </Header>
 

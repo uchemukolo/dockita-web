@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import { Row, Col, Form, Input, Button, Divider} from 'antd';
 import './home.style.css';
 import { history } from "../../redux/store";
@@ -11,7 +12,6 @@ import { history } from "../../redux/store";
 const Home = (props) => {
     const onFinish = values => {
       history.push(`/dashboard`);
-      console.log('Received values of form: ', values);
     };
   return(
     <div>
@@ -65,7 +65,7 @@ const Home = (props) => {
           Login
         </Button>
       </Form.Item>
-      <Row className='register-text'>Not Registered yet?&nbsp; <span style={{fontWeight: 800}}><a href="">SIGNUP!</a></span></Row>
+      <Row className='register-text'>Not Registered yet?&nbsp; <span style={{fontWeight: 800}}><Link to="">SIGNUP!</Link></span></Row>
     </Form>
     </Row>
        </Col>
