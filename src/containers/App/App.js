@@ -10,7 +10,7 @@ import AppRouter from './AppRouter';
 import './global.css';
 import './App.style.css';
 import debounce from '../../helpers/debounce';
-import Dashboard from '../Dashboard/Dashboard'
+import Dashboard from '../Dashboard'
 
 
 // const { logout } = authAction;
@@ -43,7 +43,7 @@ export class App extends Component {
   render() {
     const { url } = this.props.match;
 
-    this.deferredLogout();
+    // this.deferredLogout();
 
 
     return (

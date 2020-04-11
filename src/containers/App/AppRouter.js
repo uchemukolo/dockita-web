@@ -11,7 +11,7 @@ const routes = [
   },
   {
     path: 'dashboard',
-    component: asyncComponent(() => import('../Dashboard/Dashboard')),
+    component: asyncComponent(() => import('../Dashboard')),
   },
   // {
   //   path: 'leads',
