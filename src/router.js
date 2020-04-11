@@ -46,7 +46,7 @@ const PublicRoutes = ({ history, isLoggedIn }) => {
     <ConnectedRouter history={history}>
       <div>
         <Route exact path={root} component={asyncComponent(() => import('./containers/Home'))} />
-        <Route exact path={dashboard} component={asyncComponent(() => import('./containers/Dashboard'))} />
+        <Route exact path={dashboard} component={asyncComponent(() => import('./containers/dashboard'))} />
         {/* <Route
           exact
           path={createPasswordRoute}

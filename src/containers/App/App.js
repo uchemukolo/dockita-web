@@ -10,7 +10,7 @@ import AppRouter from './AppRouter';
 import './global.css';
 import './App.style.css';
 import debounce from '../../helpers/debounce';
-import Dashboard from '../Dashboard'
+import Dashboard from '../dashboard'
 
 
 // const { logout } = authAction;
