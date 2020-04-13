@@ -12,7 +12,7 @@ import { UserOutlined } from '@ant-design/icons';
 const Card = ({name, date, total}) => {
   return (
     <div date={date} name={name} total={total} className='card-container'>
-      <Row>
+      <Row style={{flexFlow: 'row'}}>
         <Col className='avatar'>{ <UserOutlined /> }</Col>
         <Col className='description'>
           <Row className='total'>{total}</Row>
