@@ -60,7 +60,7 @@ export class App extends Component {
                 <div
                   className="App"
                   style={{
-                    width: '100%',
+                    maxWidth: '100%',
                     padding: '50px 60px 0px 60px'
                   }}
                 >

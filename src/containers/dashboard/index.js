@@ -16,7 +16,7 @@ const { Header, Content, Footer, Sider } = Layout;
 
 const Dashboard = (props) => {
   return(
-    <div style={{width: '100%', background: '#EDEDF6'}}>
+    <div style={{maxWidth: '100%', background: '#EDEDF6'}}>
       <Layout>
     <Sider
       style={{display:'flex', flexDirection: 'column'}}

@@ -1,5 +1,5 @@
 .card-container {
-  width: 100%;
+  max-width: 100%;
   min-height: 140px;
   background: #ffffff;
   border-radius: 10px;
@@ -15,7 +15,7 @@
   color: #F59FBC;
   text-align: center;
   background: #713bdb0d;
-  width: 70px;
+  max-width: 70px;
   height: 70px;
   border-radius: 50%;
 }
