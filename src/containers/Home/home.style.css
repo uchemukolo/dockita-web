@@ -4,11 +4,6 @@ margin: 0 auto;
 box-sizing: border-box;
 padding: 50px 60px 0px 60px;
 }
-/* 
-.right {
-  flex-direction: column;
-  width: 60%;
-} */
 
 .right-top {
 margin-bottom: 30px;
