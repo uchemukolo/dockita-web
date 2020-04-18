@@ -4,8 +4,8 @@ body {
 }
 
 .App {
-  max-width: 100%;
-  margin: 50px 60px 0px 60px;
+  /* max-width: 100%;
+  margin: 50px 60px 0px 60px; */
 }
 @media screen and ( max-width: 600px ) {
   .App {

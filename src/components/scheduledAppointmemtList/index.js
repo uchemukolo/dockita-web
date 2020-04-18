@@ -109,8 +109,8 @@ const ScheduledAppointmemtList = (props) => {
       render: (item) =>
            (
             <div className='custom-rows'>
-              <p style={{}}>{item.name}</p>
-              <p style={{marginTop: '-6px', fontSize: '10px', color: '#8E9198'}}>{item.issue}</p>
+              <p>{item.name}</p>
+              <p className='sub-text'>{item.issue}</p>
             </div>
             )
     },
