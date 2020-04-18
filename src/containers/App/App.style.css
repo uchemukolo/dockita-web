@@ -1,11 +1,11 @@
 body {
+  max-width: 1440px;
+  margin: 50px 60px 0px 60px;
   background: #EDEDF6;
   background-image: url("../../assets/back\ 01\ 1.png");
 }
 
 .App {
-  max-width: 1440px;
-  margin: 50px 60px 0px 60px;
 }
 @media screen and ( max-width: 600px ) {
   .App {
