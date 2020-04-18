@@ -107,3 +107,20 @@
     border-radius: 50%;
     background-color: #F59FBC;
 }
+
+.ant-layout-sider-zero-width-trigger {
+  position: absolute;
+  top: 0;
+  right: -66px;
+  z-index: 1;
+  width: 76px;
+  height: 100px;
+  color: #fff;
+  font-size: 36px;
+  line-height: 89px;
+  text-align: center;
+  background: #001529;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+  transition: background .3s ease;
+}
