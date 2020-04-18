@@ -14,8 +14,8 @@ const Home = (props) => {
       history.push(`/dashboard`);
     };
   return(
-    <div>
-     <Row className='home-container'>
+    <div className='home-container'> 
+     <Row>
        <Col span={16} className='right'>
          <Row className='right-top'>
          <Row className='right-top-text1'>Welcome Back</Row>
