@@ -1,6 +1,7 @@
 .home-container {
 max-width: 1440px;
 margin: 0 auto;
+box-sizing: border-box;
 padding: 50px 60px 0px 60px;
 }
 /* 
