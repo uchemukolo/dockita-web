@@ -44,18 +44,16 @@ export class App extends Component {
     const { url } = this.props.match;
 
     // this.deferredLogout();
-    const { height } = this.props.app;
-    const appHeight = window.innerHeight;
+    
 
     return (
-          <Layout style={{ height: appHeight }}>
+          <Layout>
             <Layout style={{ flexDirection: 'row', overflowX: 'hidden' }}>
               {/* <Sidebar url={url} /> */}
               <Dashboard />
               <Layout
                 className="isoContentMainLayout"
                 style={{
-                  height,
                   position: 'relative',
                 }}
               >
